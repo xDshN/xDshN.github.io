@@ -1,0 +1,141 @@
+<имя_тега>Содержание Тега</имя_тега>
+
+
+<hN>
+	- заголовок N-ого уровня(N = 1...6)
+</hN> 
+
+
+<title> ЗАГОЛОВОК СТРАНИЦЫ </title>
+
+
+<header> - Верхняя часть сайта, шапка
+       <nav>
+	   - NAV от слова NOVIGATION(новигация) тег для вёрстки меню, для новигации на странице	
+       </nav> 
+</header>
+
+
+<footer> 
+	- подвал сайта, нижняя часть с контактами например
+</footer>
+
+
+<div> 
+	-блочный элемент, контейнер
+</div>
+
+
+<p> 
+	-(paragraph) тег абзац (блочный)
+</p>
+
+<span>
+	- тег абзаца(строчный)
+</span>
+
+ВНУТРИ СТРОЧНЫХ ТЕГОВ НЕЛЬЗЯ ПОМЕЩАТЬ БЛОЧНЫЕ ТЕГИ. НО ВНУТРИ БЛОЧНЫХ МОЖНО ПОМЕЩАТЬ СТРОЧНЫЕ 
+
+<ul>
+	<li>pizdec</li>
+      <li>pizdec</li>
+      <li>pizdec</li>	
+</ul>
+отображение==> *pizdec
+    *pizdec
+    *pizdec
+-маркированный список. Элементы распологающиеся внутри списка должны быть завёрнуты в спец. тег li
+
+
+<ol>
+        <li>pizdec</li>
+        <li>pizdec</li>
+        <li>pizdec</li>        
+</ol>
+отображение==> 1.pizdec
+    2.pizdec
+    3.pizdec
+-нумерованный список. Элементы распологающиеся внутри списка должны быть завёрнуты в спец. тег li
+
+
+<b> 	- делает текст ЖИРНЫМ	</b>
+<em>  - делает текст КУРСИВОМ </em>
+<big> - делает текст БОЛЬШИМ </big>
+<small> - делает текст МАЛЕНЬКИМ</small>
+<br> - всё то что стоит после тега переноситься на новую строку
+
+<a href="АДРЕСС ССЫЛКИ" target="_blank"> гиперссылка </a> - тег для ССЫЛОК
+target="_blank" - для того чтобы ссылка открылась в новой вкладке
+
+<img src="абсолютный/локальный путь к картинке" alt="упс">
+src - путь
+alt - альтернативный путь если в src нет ничего
+
+attribute="value"
+
+
+<table border="1"-обводка таблицы width="100%" > 
+	<tr>
+		<th> - Table Head. Загаловки для каждой из калонок таблицы </th>
+
+	</tr> - строки
+	
+	<tr>
+		<td> - тег ЯЧЕЙКИ</td>
+	</tr>
+</table> - таблицы
+
+<form action="#">
+	
+	<input type="text" name="text_input"-дляСервера,для обработки value="example" placeholder="ВведитеВашеИмя"-подсказка, полупрозначная> - поле для ввода
+	<input type="password"> - для пароля
+	<input type="tel"> - для телефона
+	<input type="number">
+	
+	<input type="radio" name="text_input" value="1"> 
+	<input type="radio" name="text_input" value="2">
+	<input type="radio" name="text_input" value="3">
+	
+	<input type="checkbox" name="check1" value="4"> чекбокс 1
+	<input type="checkbox" name="check2" value="5"> чекбокс 2
+
+	<input type="file">
+
+</form>
+
+
+<textarea name="" id="" cols="30"-колонки rows="10"-строчки>
+
+<select name="list1" id="lsit">
+	
+</select> - выпадающий список
+
+<input type="submit" value="Отправить">
+<input type="reset" value="Отправить">-сброс
+
+
+
+<meta name="robots" content="index"> - чтобы страница индексировалась
+<meta name="discription" content="Это моя первая хня.."> - подзагаловок сайта
+<meta name="keywords" content="Сайт визитка, разработка, балабабалабалабаабаблдаблалб"> - ключевые слова при поиске 
+<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="noindex, follow">
+
+follow - следование по ссылкам
+index - индексация
+all - разрешаем индексацию и следование по ссылкам
+
+<meta name="robots" content="all">
+
+
+
+
+
+
+
+
+
+
+
+
+
